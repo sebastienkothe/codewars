@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		831A0F0926E9001E001BF0CB /* PartialWordSearching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A0F0826E9001E001BF0CB /* PartialWordSearching.swift */; };
+		831A0F0B26E90045001BF0CB /* PrinterErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A0F0A26E90045001BF0CB /* PrinterErrors.swift */; };
+		831A0F0E26E901D1001BF0CB /* IfYouCanReadThis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A0F0D26E901D1001BF0CB /* IfYouCanReadThis.swift */; };
+		831A0F1026E90584001BF0CB /* RomanNumeralsDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A0F0F26E90584001BF0CB /* RomanNumeralsDecoder.swift */; };
+		831A0F1226E905EB001BF0CB /* StopGninnipSMySdroW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A0F1126E905EB001BF0CB /* StopGninnipSMySdroW.swift */; };
+		831A0F1426E90617001BF0CB /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A0F1326E90617001BF0CB /* TwoSum.swift */; };
+		831A0F1626E90652001BF0CB /* ReverseOrRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A0F1526E90652001BF0CB /* ReverseOrRotate.swift */; };
+		831A0F1926E90693001BF0CB /* RecoverASecret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A0F1826E90693001BF0CB /* RecoverASecret.swift */; };
+		831A0F1B26E906F1001BF0CB /* Int32ToIPv4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A0F1A26E906F1001BF0CB /* Int32ToIPv4.swift */; };
+		831A0F1D26E90739001BF0CB /* DecimalFactorialBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A0F1C26E90739001BF0CB /* DecimalFactorialBack.swift */; };
+		831A0F1F26E90792001BF0CB /* FirstVariationCaesarCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A0F1E26E90792001BF0CB /* FirstVariationCaesarCipher.swift */; };
+		831A0F2126E907CC001BF0CB /* RecoverASecretTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A0F2026E907CC001BF0CB /* RecoverASecretTest.swift */; };
+		831A0F2726E9091C001BF0CB /* RecoverASecret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A0F1826E90693001BF0CB /* RecoverASecret.swift */; };
+		831A0F2926E90991001BF0CB /* PartialWordSearching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A0F0826E9001E001BF0CB /* PartialWordSearching.swift */; };
+		831A0F2A26E90993001BF0CB /* PrinterErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A0F0A26E90045001BF0CB /* PrinterErrors.swift */; };
+		831A0F2B26E90996001BF0CB /* IfYouCanReadThis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A0F0D26E901D1001BF0CB /* IfYouCanReadThis.swift */; };
+		831A0F2C26E90998001BF0CB /* RomanNumeralsDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A0F0F26E90584001BF0CB /* RomanNumeralsDecoder.swift */; };
+		831A0F2D26E9099B001BF0CB /* StopGninnipSMySdroW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A0F1126E905EB001BF0CB /* StopGninnipSMySdroW.swift */; };
+		831A0F2E26E9099D001BF0CB /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A0F1326E90617001BF0CB /* TwoSum.swift */; };
+		831A0F2F26E909A0001BF0CB /* ReverseOrRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A0F1526E90652001BF0CB /* ReverseOrRotate.swift */; };
+		831A0F3026E909A7001BF0CB /* Int32ToIPv4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A0F1A26E906F1001BF0CB /* Int32ToIPv4.swift */; };
+		831A0F3126E909AA001BF0CB /* DecimalFactorialBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A0F1C26E90739001BF0CB /* DecimalFactorialBack.swift */; };
+		831A0F3226E909AD001BF0CB /* FirstVariationCaesarCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A0F1E26E90792001BF0CB /* FirstVariationCaesarCipher.swift */; };
+		837917F726E82FCA0098D22B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837917F626E82FCA0098D22B /* main.swift */; };
+		8379180426E8306D0098D22B /* TheLookAndSaySequenceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8379180326E8306D0098D22B /* TheLookAndSaySequenceTest.swift */; };
+		8379180E26E831F20098D22B /* TheLookAndSaySequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8379180D26E831F20098D22B /* TheLookAndSaySequence.swift */; };
+		8379180F26E831F20098D22B /* TheLookAndSaySequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8379180D26E831F20098D22B /* TheLookAndSaySequence.swift */; };
+		8379181226E8354F0098D22B /* DirectionsReduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8379181126E8354F0098D22B /* DirectionsReduction.swift */; };
+		8379181326E8354F0098D22B /* DirectionsReduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8379181126E8354F0098D22B /* DirectionsReduction.swift */; };
+		8379181526E836850098D22B /* DirectionsReductionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8379181426E836850098D22B /* DirectionsReductionTest.swift */; };
+		83D54BF526E90EE50009A1DB /* PartialWordSearchingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D54BF426E90EE50009A1DB /* PartialWordSearchingTest.swift */; };
+		83D54BF726E90FC50009A1DB /* PrinterErrorsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D54BF626E90FC50009A1DB /* PrinterErrorsTest.swift */; };
+		83D54BF926E910C50009A1DB /* IfYouCanReadThisTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D54BF826E910C50009A1DB /* IfYouCanReadThisTest.swift */; };
+		83D54BFB26E913F60009A1DB /* RomanNumeralsDecoderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D54BFA26E913F60009A1DB /* RomanNumeralsDecoderTest.swift */; };
+		83D54BFD26E914690009A1DB /* StopGninnipSMySdroWTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D54BFC26E914690009A1DB /* StopGninnipSMySdroWTest.swift */; };
+		83D54BFF26E914F60009A1DB /* TwoSumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D54BFE26E914F60009A1DB /* TwoSumTest.swift */; };
+		83D54C0126E915610009A1DB /* ReverseOrRotateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D54C0026E915610009A1DB /* ReverseOrRotateTest.swift */; };
+		83D54C0326E915DC0009A1DB /* Int32ToIPv4Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D54C0226E915DC0009A1DB /* Int32ToIPv4Test.swift */; };
+		83D54C0526E916CB0009A1DB /* DecimalFactorialBackTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D54C0426E916CB0009A1DB /* DecimalFactorialBackTest.swift */; };
+		83D54C0726E9184E0009A1DB /* FirstVariationCaesarCipherTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D54C0626E9184E0009A1DB /* FirstVariationCaesarCipherTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		837917F126E82FCA0098D22B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		831A0F0826E9001E001BF0CB /* PartialWordSearching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartialWordSearching.swift; sourceTree = "<group>"; };
+		831A0F0A26E90045001BF0CB /* PrinterErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterErrors.swift; sourceTree = "<group>"; };
+		831A0F0D26E901D1001BF0CB /* IfYouCanReadThis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfYouCanReadThis.swift; sourceTree = "<group>"; };
+		831A0F0F26E90584001BF0CB /* RomanNumeralsDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralsDecoder.swift; sourceTree = "<group>"; };
+		831A0F1126E905EB001BF0CB /* StopGninnipSMySdroW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopGninnipSMySdroW.swift; sourceTree = "<group>"; };
+		831A0F1326E90617001BF0CB /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
+		831A0F1526E90652001BF0CB /* ReverseOrRotate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseOrRotate.swift; sourceTree = "<group>"; };
+		831A0F1826E90693001BF0CB /* RecoverASecret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverASecret.swift; sourceTree = "<group>"; };
+		831A0F1A26E906F1001BF0CB /* Int32ToIPv4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int32ToIPv4.swift; sourceTree = "<group>"; };
+		831A0F1C26E90739001BF0CB /* DecimalFactorialBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalFactorialBack.swift; sourceTree = "<group>"; };
+		831A0F1E26E90792001BF0CB /* FirstVariationCaesarCipher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVariationCaesarCipher.swift; sourceTree = "<group>"; };
+		831A0F2026E907CC001BF0CB /* RecoverASecretTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverASecretTest.swift; sourceTree = "<group>"; };
+		837917F326E82FCA0098D22B /* codewars */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = codewars; sourceTree = BUILT_PRODUCTS_DIR; };
+		837917F626E82FCA0098D22B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8379180126E8306D0098D22B /* tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8379180326E8306D0098D22B /* TheLookAndSaySequenceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheLookAndSaySequenceTest.swift; sourceTree = "<group>"; };
+		8379180526E8306D0098D22B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8379180D26E831F20098D22B /* TheLookAndSaySequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheLookAndSaySequence.swift; sourceTree = "<group>"; };
+		8379181126E8354F0098D22B /* DirectionsReduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsReduction.swift; sourceTree = "<group>"; };
+		8379181426E836850098D22B /* DirectionsReductionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsReductionTest.swift; sourceTree = "<group>"; };
+		83D54BF426E90EE50009A1DB /* PartialWordSearchingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartialWordSearchingTest.swift; sourceTree = "<group>"; };
+		83D54BF626E90FC50009A1DB /* PrinterErrorsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterErrorsTest.swift; sourceTree = "<group>"; };
+		83D54BF826E910C50009A1DB /* IfYouCanReadThisTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfYouCanReadThisTest.swift; sourceTree = "<group>"; };
+		83D54BFA26E913F60009A1DB /* RomanNumeralsDecoderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralsDecoderTest.swift; sourceTree = "<group>"; };
+		83D54BFC26E914690009A1DB /* StopGninnipSMySdroWTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopGninnipSMySdroWTest.swift; sourceTree = "<group>"; };
+		83D54BFE26E914F60009A1DB /* TwoSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumTest.swift; sourceTree = "<group>"; };
+		83D54C0026E915610009A1DB /* ReverseOrRotateTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseOrRotateTest.swift; sourceTree = "<group>"; };
+		83D54C0226E915DC0009A1DB /* Int32ToIPv4Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int32ToIPv4Test.swift; sourceTree = "<group>"; };
+		83D54C0426E916CB0009A1DB /* DecimalFactorialBackTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalFactorialBackTest.swift; sourceTree = "<group>"; };
+		83D54C0626E9184E0009A1DB /* FirstVariationCaesarCipherTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVariationCaesarCipherTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		837917F026E82FCA0098D22B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837917FE26E8306D0098D22B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		831A0F0726E8FFFA001BF0CB /* 7 kyu */ = {
+			isa = PBXGroup;
+			children = (
+				831A0F0826E9001E001BF0CB /* PartialWordSearching.swift */,
+				831A0F0A26E90045001BF0CB /* PrinterErrors.swift */,
+			);
+			path = "7 kyu";
+			sourceTree = "<group>";
+		};
+		831A0F0C26E900C4001BF0CB /* 6 kyu */ = {
+			isa = PBXGroup;
+			children = (
+				831A0F0D26E901D1001BF0CB /* IfYouCanReadThis.swift */,
+				831A0F0F26E90584001BF0CB /* RomanNumeralsDecoder.swift */,
+				831A0F1126E905EB001BF0CB /* StopGninnipSMySdroW.swift */,
+				831A0F1326E90617001BF0CB /* TwoSum.swift */,
+				831A0F1526E90652001BF0CB /* ReverseOrRotate.swift */,
+			);
+			path = "6 kyu";
+			sourceTree = "<group>";
+		};
+		831A0F1726E90680001BF0CB /* 4 kyu */ = {
+			isa = PBXGroup;
+			children = (
+				831A0F1826E90693001BF0CB /* RecoverASecret.swift */,
+			);
+			path = "4 kyu";
+			sourceTree = "<group>";
+		};
+		831A0F2326E907ED001BF0CB /* 4 kyu */ = {
+			isa = PBXGroup;
+			children = (
+				831A0F2026E907CC001BF0CB /* RecoverASecretTest.swift */,
+			);
+			path = "4 kyu";
+			sourceTree = "<group>";
+		};
+		831A0F2426E907F6001BF0CB /* 5 kyu */ = {
+			isa = PBXGroup;
+			children = (
+				8379180326E8306D0098D22B /* TheLookAndSaySequenceTest.swift */,
+				8379181426E836850098D22B /* DirectionsReductionTest.swift */,
+				83D54C0226E915DC0009A1DB /* Int32ToIPv4Test.swift */,
+				83D54C0426E916CB0009A1DB /* DecimalFactorialBackTest.swift */,
+				83D54C0626E9184E0009A1DB /* FirstVariationCaesarCipherTest.swift */,
+			);
+			path = "5 kyu";
+			sourceTree = "<group>";
+		};
+		831A0F2526E907FC001BF0CB /* 6 kyu */ = {
+			isa = PBXGroup;
+			children = (
+				83D54BF826E910C50009A1DB /* IfYouCanReadThisTest.swift */,
+				83D54BFA26E913F60009A1DB /* RomanNumeralsDecoderTest.swift */,
+				83D54BFC26E914690009A1DB /* StopGninnipSMySdroWTest.swift */,
+				83D54BFE26E914F60009A1DB /* TwoSumTest.swift */,
+				83D54C0026E915610009A1DB /* ReverseOrRotateTest.swift */,
+			);
+			path = "6 kyu";
+			sourceTree = "<group>";
+		};
+		831A0F2626E90801001BF0CB /* 7 kyu */ = {
+			isa = PBXGroup;
+			children = (
+				83D54BF426E90EE50009A1DB /* PartialWordSearchingTest.swift */,
+				83D54BF626E90FC50009A1DB /* PrinterErrorsTest.swift */,
+			);
+			path = "7 kyu";
+			sourceTree = "<group>";
+		};
+		837917EA26E82FCA0098D22B = {
+			isa = PBXGroup;
+			children = (
+				837917F526E82FCA0098D22B /* codewars */,
+				8379180226E8306D0098D22B /* tests */,
+				837917F426E82FCA0098D22B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		837917F426E82FCA0098D22B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				837917F326E82FCA0098D22B /* codewars */,
+				8379180126E8306D0098D22B /* tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		837917F526E82FCA0098D22B /* codewars */ = {
+			isa = PBXGroup;
+			children = (
+				8379180B26E831BB0098D22B /* Katas */,
+				837917F626E82FCA0098D22B /* main.swift */,
+			);
+			path = codewars;
+			sourceTree = "<group>";
+		};
+		8379180226E8306D0098D22B /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				831A0F2626E90801001BF0CB /* 7 kyu */,
+				831A0F2526E907FC001BF0CB /* 6 kyu */,
+				831A0F2426E907F6001BF0CB /* 5 kyu */,
+				831A0F2326E907ED001BF0CB /* 4 kyu */,
+				8379180526E8306D0098D22B /* Info.plist */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+		8379180B26E831BB0098D22B /* Katas */ = {
+			isa = PBXGroup;
+			children = (
+				831A0F0726E8FFFA001BF0CB /* 7 kyu */,
+				831A0F0C26E900C4001BF0CB /* 6 kyu */,
+				8379180C26E831D10098D22B /* 5 kyu */,
+				831A0F1726E90680001BF0CB /* 4 kyu */,
+			);
+			path = Katas;
+			sourceTree = "<group>";
+		};
+		8379180C26E831D10098D22B /* 5 kyu */ = {
+			isa = PBXGroup;
+			children = (
+				8379180D26E831F20098D22B /* TheLookAndSaySequence.swift */,
+				8379181126E8354F0098D22B /* DirectionsReduction.swift */,
+				831A0F1A26E906F1001BF0CB /* Int32ToIPv4.swift */,
+				831A0F1C26E90739001BF0CB /* DecimalFactorialBack.swift */,
+				831A0F1E26E90792001BF0CB /* FirstVariationCaesarCipher.swift */,
+			);
+			path = "5 kyu";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		837917F226E82FCA0098D22B /* codewars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 837917FA26E82FCA0098D22B /* Build configuration list for PBXNativeTarget "codewars" */;
+			buildPhases = (
+				837917EF26E82FCA0098D22B /* Sources */,
+				837917F026E82FCA0098D22B /* Frameworks */,
+				837917F126E82FCA0098D22B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = codewars;
+			productName = codewars;
+			productReference = 837917F326E82FCA0098D22B /* codewars */;
+			productType = "com.apple.product-type.tool";
+		};
+		8379180026E8306D0098D22B /* tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8379180626E8306D0098D22B /* Build configuration list for PBXNativeTarget "tests" */;
+			buildPhases = (
+				837917FD26E8306D0098D22B /* Sources */,
+				837917FE26E8306D0098D22B /* Frameworks */,
+				837917FF26E8306D0098D22B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tests;
+			productName = tests;
+			productReference = 8379180126E8306D0098D22B /* tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		837917EB26E82FCA0098D22B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					837917F226E82FCA0098D22B = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					8379180026E8306D0098D22B = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 837917EE26E82FCA0098D22B /* Build configuration list for PBXProject "codewars" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 837917EA26E82FCA0098D22B;
+			productRefGroup = 837917F426E82FCA0098D22B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				837917F226E82FCA0098D22B /* codewars */,
+				8379180026E8306D0098D22B /* tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		837917FF26E8306D0098D22B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		837917EF26E82FCA0098D22B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831A0F1626E90652001BF0CB /* ReverseOrRotate.swift in Sources */,
+				831A0F1D26E90739001BF0CB /* DecimalFactorialBack.swift in Sources */,
+				831A0F1026E90584001BF0CB /* RomanNumeralsDecoder.swift in Sources */,
+				831A0F1B26E906F1001BF0CB /* Int32ToIPv4.swift in Sources */,
+				837917F726E82FCA0098D22B /* main.swift in Sources */,
+				831A0F1926E90693001BF0CB /* RecoverASecret.swift in Sources */,
+				831A0F1F26E90792001BF0CB /* FirstVariationCaesarCipher.swift in Sources */,
+				831A0F0E26E901D1001BF0CB /* IfYouCanReadThis.swift in Sources */,
+				8379180E26E831F20098D22B /* TheLookAndSaySequence.swift in Sources */,
+				831A0F0926E9001E001BF0CB /* PartialWordSearching.swift in Sources */,
+				831A0F1426E90617001BF0CB /* TwoSum.swift in Sources */,
+				831A0F1226E905EB001BF0CB /* StopGninnipSMySdroW.swift in Sources */,
+				831A0F0B26E90045001BF0CB /* PrinterErrors.swift in Sources */,
+				8379181226E8354F0098D22B /* DirectionsReduction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837917FD26E8306D0098D22B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D54BFF26E914F60009A1DB /* TwoSumTest.swift in Sources */,
+				83D54BF526E90EE50009A1DB /* PartialWordSearchingTest.swift in Sources */,
+				831A0F2A26E90993001BF0CB /* PrinterErrors.swift in Sources */,
+				831A0F2D26E9099B001BF0CB /* StopGninnipSMySdroW.swift in Sources */,
+				83D54C0726E9184E0009A1DB /* FirstVariationCaesarCipherTest.swift in Sources */,
+				8379180426E8306D0098D22B /* TheLookAndSaySequenceTest.swift in Sources */,
+				8379181526E836850098D22B /* DirectionsReductionTest.swift in Sources */,
+				831A0F3226E909AD001BF0CB /* FirstVariationCaesarCipher.swift in Sources */,
+				831A0F2B26E90996001BF0CB /* IfYouCanReadThis.swift in Sources */,
+				831A0F3026E909A7001BF0CB /* Int32ToIPv4.swift in Sources */,
+				831A0F2926E90991001BF0CB /* PartialWordSearching.swift in Sources */,
+				83D54BF726E90FC50009A1DB /* PrinterErrorsTest.swift in Sources */,
+				83D54BFD26E914690009A1DB /* StopGninnipSMySdroWTest.swift in Sources */,
+				83D54BF926E910C50009A1DB /* IfYouCanReadThisTest.swift in Sources */,
+				83D54BFB26E913F60009A1DB /* RomanNumeralsDecoderTest.swift in Sources */,
+				83D54C0526E916CB0009A1DB /* DecimalFactorialBackTest.swift in Sources */,
+				83D54C0326E915DC0009A1DB /* Int32ToIPv4Test.swift in Sources */,
+				831A0F2F26E909A0001BF0CB /* ReverseOrRotate.swift in Sources */,
+				831A0F2C26E90998001BF0CB /* RomanNumeralsDecoder.swift in Sources */,
+				831A0F2726E9091C001BF0CB /* RecoverASecret.swift in Sources */,
+				831A0F3126E909AA001BF0CB /* DecimalFactorialBack.swift in Sources */,
+				83D54C0126E915610009A1DB /* ReverseOrRotateTest.swift in Sources */,
+				8379181326E8354F0098D22B /* DirectionsReduction.swift in Sources */,
+				8379180F26E831F20098D22B /* TheLookAndSaySequence.swift in Sources */,
+				831A0F2126E907CC001BF0CB /* RecoverASecretTest.swift in Sources */,
+				831A0F2E26E9099D001BF0CB /* TwoSum.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		837917F826E82FCA0098D22B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		837917F926E82FCA0098D22B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		837917FB26E82FCA0098D22B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CQSNJZ5Q2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		837917FC26E82FCA0098D22B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CQSNJZ5Q2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8379180726E8306D0098D22B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3CQSNJZ5Q2;
+				INFOPLIST_FILE = tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebastienkothe.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8379180826E8306D0098D22B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3CQSNJZ5Q2;
+				INFOPLIST_FILE = tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebastienkothe.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		837917EE26E82FCA0098D22B /* Build configuration list for PBXProject "codewars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837917F826E82FCA0098D22B /* Debug */,
+				837917F926E82FCA0098D22B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		837917FA26E82FCA0098D22B /* Build configuration list for PBXNativeTarget "codewars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837917FB26E82FCA0098D22B /* Debug */,
+				837917FC26E82FCA0098D22B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8379180626E8306D0098D22B /* Build configuration list for PBXNativeTarget "tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8379180726E8306D0098D22B /* Debug */,
+				8379180826E8306D0098D22B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 837917EB26E82FCA0098D22B /* Project object */;
+}
