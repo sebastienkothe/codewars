@@ -10,6 +10,12 @@ import XCTest
 class TheLookAndSaySequenceTest: XCTestCase {
     
     func testGetLines() {
+        XCTAssertEqual(getLines(3), "1,11,21")
+        XCTAssertEqual(getLines(4), "1,11,21,1211")
+        XCTAssertEqual(getLines(6), "1,11,21,1211,111221,312211")
+        XCTAssertEqual(getLines(7), "1,11,21,1211,111221,312211,13112221")
+        XCTAssertEqual(getLines(8), "1,11,21,1211,111221,312211,13112221,1113213211")
+        XCTAssertEqual(getLines(9), "1,11,21,1211,111221,312211,13112221,1113213211,31131211131221")
         XCTAssertEqual(getLines(1), "1")
         XCTAssertEqual(getLines(2), "1,11")
         XCTAssertEqual(getLines(5), "1,11,21,1211,111221")
