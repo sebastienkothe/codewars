@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		83163D6A26EAA3E6003E7A82 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837917F626E82FCA0098D22B /* main.swift */; };
+		83163D6C26EAB899003E7A82 /* GapInPrimesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83163D6B26EAB899003E7A82 /* GapInPrimesTest.swift */; };
+		83163D6E26EAB8C1003E7A82 /* GapInPrimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83163D6D26EAB8C1003E7A82 /* GapInPrimes.swift */; };
+		83163D6F26EAB900003E7A82 /* GapInPrimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83163D6D26EAB8C1003E7A82 /* GapInPrimes.swift */; };
 		831A0F0926E9001E001BF0CB /* PartialWordSearching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A0F0826E9001E001BF0CB /* PartialWordSearching.swift */; };
 		831A0F0B26E90045001BF0CB /* PrinterErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A0F0A26E90045001BF0CB /* PrinterErrors.swift */; };
 		831A0F0E26E901D1001BF0CB /* IfYouCanReadThis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A0F0D26E901D1001BF0CB /* IfYouCanReadThis.swift */; };
@@ -63,6 +66,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		83163D6B26EAB899003E7A82 /* GapInPrimesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GapInPrimesTest.swift; sourceTree = "<group>"; };
+		83163D6D26EAB8C1003E7A82 /* GapInPrimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GapInPrimes.swift; sourceTree = "<group>"; };
 		831A0F0826E9001E001BF0CB /* PartialWordSearching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartialWordSearching.swift; sourceTree = "<group>"; };
 		831A0F0A26E90045001BF0CB /* PrinterErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterErrors.swift; sourceTree = "<group>"; };
 		831A0F0D26E901D1001BF0CB /* IfYouCanReadThis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfYouCanReadThis.swift; sourceTree = "<group>"; };
@@ -158,6 +163,7 @@
 				83D54C0226E915DC0009A1DB /* Int32ToIPv4Test.swift */,
 				83D54C0426E916CB0009A1DB /* DecimalFactorialBackTest.swift */,
 				83D54C0626E9184E0009A1DB /* FirstVariationCaesarCipherTest.swift */,
+				83163D6B26EAB899003E7A82 /* GapInPrimesTest.swift */,
 			);
 			path = "5 kyu";
 			sourceTree = "<group>";
@@ -241,6 +247,7 @@
 				831A0F1A26E906F1001BF0CB /* Int32ToIPv4.swift */,
 				831A0F1C26E90739001BF0CB /* DecimalFactorialBack.swift */,
 				831A0F1E26E90792001BF0CB /* FirstVariationCaesarCipher.swift */,
+				83163D6D26EAB8C1003E7A82 /* GapInPrimes.swift */,
 			);
 			path = "5 kyu";
 			sourceTree = "<group>";
@@ -334,6 +341,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				831A0F1626E90652001BF0CB /* ReverseOrRotate.swift in Sources */,
+				83163D6E26EAB8C1003E7A82 /* GapInPrimes.swift in Sources */,
 				831A0F1D26E90739001BF0CB /* DecimalFactorialBack.swift in Sources */,
 				831A0F1026E90584001BF0CB /* RomanNumeralsDecoder.swift in Sources */,
 				831A0F1B26E906F1001BF0CB /* Int32ToIPv4.swift in Sources */,
@@ -357,6 +365,7 @@
 				83D54BFF26E914F60009A1DB /* TwoSumTest.swift in Sources */,
 				83D54BF526E90EE50009A1DB /* PartialWordSearchingTest.swift in Sources */,
 				831A0F2A26E90993001BF0CB /* PrinterErrors.swift in Sources */,
+				83163D6C26EAB899003E7A82 /* GapInPrimesTest.swift in Sources */,
 				831A0F2D26E9099B001BF0CB /* StopGninnipSMySdroW.swift in Sources */,
 				83D54C0726E9184E0009A1DB /* FirstVariationCaesarCipherTest.swift in Sources */,
 				8379180426E8306D0098D22B /* TheLookAndSaySequenceTest.swift in Sources */,
@@ -380,6 +389,7 @@
 				8379181326E8354F0098D22B /* DirectionsReduction.swift in Sources */,
 				8379180F26E831F20098D22B /* TheLookAndSaySequence.swift in Sources */,
 				831A0F2126E907CC001BF0CB /* RecoverASecretTest.swift in Sources */,
+				83163D6F26EAB900003E7A82 /* GapInPrimes.swift in Sources */,
 				831A0F2E26E9099D001BF0CB /* TwoSum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

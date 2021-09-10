@@ -557,40 +557,4 @@ class RecoverASecretTest: XCTestCase {
             ["s", "v", "x"]
         ]), secret5)
     }
-    
-    func testRecoverRandomSecrets() {
-        let unicodeScalarRange: ClosedRange<Unicode.Scalar> = "a" ... "z"
-        let unicodeScalarValueRange: ClosedRange<UInt32> = unicodeScalarRange.lowerBound.value ... unicodeScalarRange.upperBound.value
-        let unicodeScalarArray: [Unicode.Scalar] = unicodeScalarValueRange.compactMap(Unicode.Scalar.init)
-        let alphabetArray: [Character] = unicodeScalarArray.map(Character.init)
-        
-        for _ in 0...100 {
-            var secretSet = Set<String>()
-            let secretLength = Int.random(in: 4..<26)
-            var triplets = [[String]]()
-            
-            while secretSet.count < secretLength {
-                secretSet.insert(String(alphabetArray.randomElement()!))
-            }
-            
-            let secretArray: [String] = Array(secretSet)
-            let secret = secretArray.joined()
-            
-            for _ in 0..<(secretLength * 35) {
-                var tripletSet = Set<String>()
-                
-                while tripletSet.count < 3 {
-                    tripletSet.insert(secretArray.randomElement()!)
-                }
-                
-                let triplet = tripletSet.sorted { (a, b) -> Bool in
-                    return secretArray.firstIndex(of: a)! < secretArray.firstIndex(of: b)!
-                }
-                
-                triplets.append(triplet)
-            }
-            
-            XCTAssertEqual(recoverSecret(from: triplets), secret)
-        }
-    }
 }
