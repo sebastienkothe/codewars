@@ -41,6 +41,7 @@
 		8379181226E8354F0098D22B /* DirectionsReduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8379181126E8354F0098D22B /* DirectionsReduction.swift */; };
 		8379181326E8354F0098D22B /* DirectionsReduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8379181126E8354F0098D22B /* DirectionsReduction.swift */; };
 		8379181526E836850098D22B /* DirectionsReductionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8379181426E836850098D22B /* DirectionsReductionTest.swift */; };
+		837E57A426F3427000F60497 /* SquareIntoSquaresTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837E57A326F3427000F60497 /* SquareIntoSquaresTest.swift */; };
 		83D54BF526E90EE50009A1DB /* PartialWordSearchingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D54BF426E90EE50009A1DB /* PartialWordSearchingTest.swift */; };
 		83D54BF726E90FC50009A1DB /* PrinterErrorsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D54BF626E90FC50009A1DB /* PrinterErrorsTest.swift */; };
 		83D54BF926E910C50009A1DB /* IfYouCanReadThisTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D54BF826E910C50009A1DB /* IfYouCanReadThisTest.swift */; };
@@ -51,6 +52,8 @@
 		83D54C0326E915DC0009A1DB /* Int32ToIPv4Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D54C0226E915DC0009A1DB /* Int32ToIPv4Test.swift */; };
 		83D54C0526E916CB0009A1DB /* DecimalFactorialBackTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D54C0426E916CB0009A1DB /* DecimalFactorialBackTest.swift */; };
 		83D54C0726E9184E0009A1DB /* FirstVariationCaesarCipherTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D54C0626E9184E0009A1DB /* FirstVariationCaesarCipherTest.swift */; };
+		83EC9DDB26F5539E00CA2710 /* SquareIntoSquares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EC9DDA26F5539E00CA2710 /* SquareIntoSquares.swift */; };
+		83EC9DDC26F553B200CA2710 /* SquareIntoSquares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EC9DDA26F5539E00CA2710 /* SquareIntoSquares.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -88,6 +91,7 @@
 		8379180D26E831F20098D22B /* TheLookAndSaySequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheLookAndSaySequence.swift; sourceTree = "<group>"; };
 		8379181126E8354F0098D22B /* DirectionsReduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsReduction.swift; sourceTree = "<group>"; };
 		8379181426E836850098D22B /* DirectionsReductionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsReductionTest.swift; sourceTree = "<group>"; };
+		837E57A326F3427000F60497 /* SquareIntoSquaresTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareIntoSquaresTest.swift; sourceTree = "<group>"; };
 		83D54BF426E90EE50009A1DB /* PartialWordSearchingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartialWordSearchingTest.swift; sourceTree = "<group>"; };
 		83D54BF626E90FC50009A1DB /* PrinterErrorsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterErrorsTest.swift; sourceTree = "<group>"; };
 		83D54BF826E910C50009A1DB /* IfYouCanReadThisTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfYouCanReadThisTest.swift; sourceTree = "<group>"; };
@@ -98,6 +102,7 @@
 		83D54C0226E915DC0009A1DB /* Int32ToIPv4Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int32ToIPv4Test.swift; sourceTree = "<group>"; };
 		83D54C0426E916CB0009A1DB /* DecimalFactorialBackTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalFactorialBackTest.swift; sourceTree = "<group>"; };
 		83D54C0626E9184E0009A1DB /* FirstVariationCaesarCipherTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVariationCaesarCipherTest.swift; sourceTree = "<group>"; };
+		83EC9DDA26F5539E00CA2710 /* SquareIntoSquares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareIntoSquares.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				831A0F1826E90693001BF0CB /* RecoverASecret.swift */,
+				83EC9DDA26F5539E00CA2710 /* SquareIntoSquares.swift */,
 			);
 			path = "4 kyu";
 			sourceTree = "<group>";
@@ -151,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				831A0F2026E907CC001BF0CB /* RecoverASecretTest.swift */,
+				837E57A326F3427000F60497 /* SquareIntoSquaresTest.swift */,
 			);
 			path = "4 kyu";
 			sourceTree = "<group>";
@@ -341,6 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				831A0F1626E90652001BF0CB /* ReverseOrRotate.swift in Sources */,
+				83EC9DDB26F5539E00CA2710 /* SquareIntoSquares.swift in Sources */,
 				83163D6E26EAB8C1003E7A82 /* GapInPrimes.swift in Sources */,
 				831A0F1D26E90739001BF0CB /* DecimalFactorialBack.swift in Sources */,
 				831A0F1026E90584001BF0CB /* RomanNumeralsDecoder.swift in Sources */,
@@ -371,6 +379,7 @@
 				8379180426E8306D0098D22B /* TheLookAndSaySequenceTest.swift in Sources */,
 				8379181526E836850098D22B /* DirectionsReductionTest.swift in Sources */,
 				831A0F3226E909AD001BF0CB /* FirstVariationCaesarCipher.swift in Sources */,
+				837E57A426F3427000F60497 /* SquareIntoSquaresTest.swift in Sources */,
 				831A0F2B26E90996001BF0CB /* IfYouCanReadThis.swift in Sources */,
 				831A0F3026E909A7001BF0CB /* Int32ToIPv4.swift in Sources */,
 				831A0F2926E90991001BF0CB /* PartialWordSearching.swift in Sources */,
@@ -382,6 +391,7 @@
 				83D54C0526E916CB0009A1DB /* DecimalFactorialBackTest.swift in Sources */,
 				83D54C0326E915DC0009A1DB /* Int32ToIPv4Test.swift in Sources */,
 				831A0F2F26E909A0001BF0CB /* ReverseOrRotate.swift in Sources */,
+				83EC9DDC26F553B200CA2710 /* SquareIntoSquares.swift in Sources */,
 				831A0F2C26E90998001BF0CB /* RomanNumeralsDecoder.swift in Sources */,
 				831A0F2726E9091C001BF0CB /* RecoverASecret.swift in Sources */,
 				831A0F3126E909AA001BF0CB /* DecimalFactorialBack.swift in Sources */,
