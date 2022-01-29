@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36723EB327A454B90013D49A /* MultiplesOf3Or5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36723EB227A454B90013D49A /* MultiplesOf3Or5.swift */; };
+		36723EB527A45AD90013D49A /* MultiplesOf3Or5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36723EB427A45AD90013D49A /* MultiplesOf3Or5Tests.swift */; };
+		36723EB627A45CB10013D49A /* MultiplesOf3Or5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36723EB227A454B90013D49A /* MultiplesOf3Or5.swift */; };
+		36F3464027A5235D00C57B65 /* SumOfDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3463F27A5235D00C57B65 /* SumOfDigits.swift */; };
+		36F3464127A5237E00C57B65 /* SumOfDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3463F27A5235D00C57B65 /* SumOfDigits.swift */; };
+		36F3464327A5238C00C57B65 /* SumOfDigitsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3464227A5238C00C57B65 /* SumOfDigitsTests.swift */; };
 		83163D6A26EAA3E6003E7A82 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837917F626E82FCA0098D22B /* main.swift */; };
 		83163D6C26EAB899003E7A82 /* GapInPrimesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83163D6B26EAB899003E7A82 /* GapInPrimesTest.swift */; };
 		83163D6E26EAB8C1003E7A82 /* GapInPrimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83163D6D26EAB8C1003E7A82 /* GapInPrimes.swift */; };
@@ -69,6 +75,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		36723EB227A454B90013D49A /* MultiplesOf3Or5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplesOf3Or5.swift; sourceTree = "<group>"; };
+		36723EB427A45AD90013D49A /* MultiplesOf3Or5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplesOf3Or5Tests.swift; sourceTree = "<group>"; };
+		36F3463F27A5235D00C57B65 /* SumOfDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfDigits.swift; sourceTree = "<group>"; };
+		36F3464227A5238C00C57B65 /* SumOfDigitsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfDigitsTests.swift; sourceTree = "<group>"; };
 		83163D6B26EAB899003E7A82 /* GapInPrimesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GapInPrimesTest.swift; sourceTree = "<group>"; };
 		83163D6D26EAB8C1003E7A82 /* GapInPrimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GapInPrimes.swift; sourceTree = "<group>"; };
 		831A0F0826E9001E001BF0CB /* PartialWordSearching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartialWordSearching.swift; sourceTree = "<group>"; };
@@ -140,6 +150,8 @@
 				831A0F1126E905EB001BF0CB /* StopGninnipSMySdroW.swift */,
 				831A0F1326E90617001BF0CB /* TwoSum.swift */,
 				831A0F1526E90652001BF0CB /* ReverseOrRotate.swift */,
+				36723EB227A454B90013D49A /* MultiplesOf3Or5.swift */,
+				36F3463F27A5235D00C57B65 /* SumOfDigits.swift */,
 			);
 			path = "6 kyu";
 			sourceTree = "<group>";
@@ -183,6 +195,8 @@
 				83D54BFC26E914690009A1DB /* StopGninnipSMySdroWTest.swift */,
 				83D54BFE26E914F60009A1DB /* TwoSumTest.swift */,
 				83D54C0026E915610009A1DB /* ReverseOrRotateTest.swift */,
+				36723EB427A45AD90013D49A /* MultiplesOf3Or5Tests.swift */,
+				36F3464227A5238C00C57B65 /* SumOfDigitsTests.swift */,
 			);
 			path = "6 kyu";
 			sourceTree = "<group>";
@@ -194,6 +208,13 @@
 				83D54BF626E90FC50009A1DB /* PrinterErrorsTest.swift */,
 			);
 			path = "7 kyu";
+			sourceTree = "<group>";
+		};
+		831D17D626F6214100C79641 /* 3 kyu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "3 kyu";
 			sourceTree = "<group>";
 		};
 		837917EA26E82FCA0098D22B = {
@@ -230,6 +251,7 @@
 				831A0F2526E907FC001BF0CB /* 6 kyu */,
 				831A0F2426E907F6001BF0CB /* 5 kyu */,
 				831A0F2326E907ED001BF0CB /* 4 kyu */,
+				831D17D626F6214100C79641 /* 3 kyu */,
 				8379180526E8306D0098D22B /* Info.plist */,
 			);
 			path = tests;
@@ -349,6 +371,7 @@
 			files = (
 				831A0F1626E90652001BF0CB /* ReverseOrRotate.swift in Sources */,
 				83EC9DDB26F5539E00CA2710 /* SquareIntoSquares.swift in Sources */,
+				36723EB327A454B90013D49A /* MultiplesOf3Or5.swift in Sources */,
 				83163D6E26EAB8C1003E7A82 /* GapInPrimes.swift in Sources */,
 				831A0F1D26E90739001BF0CB /* DecimalFactorialBack.swift in Sources */,
 				831A0F1026E90584001BF0CB /* RomanNumeralsDecoder.swift in Sources */,
@@ -356,6 +379,7 @@
 				837917F726E82FCA0098D22B /* main.swift in Sources */,
 				831A0F1926E90693001BF0CB /* RecoverASecret.swift in Sources */,
 				831A0F1F26E90792001BF0CB /* FirstVariationCaesarCipher.swift in Sources */,
+				36F3464027A5235D00C57B65 /* SumOfDigits.swift in Sources */,
 				831A0F0E26E901D1001BF0CB /* IfYouCanReadThis.swift in Sources */,
 				8379180E26E831F20098D22B /* TheLookAndSaySequence.swift in Sources */,
 				831A0F0926E9001E001BF0CB /* PartialWordSearching.swift in Sources */,
@@ -371,6 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83D54BFF26E914F60009A1DB /* TwoSumTest.swift in Sources */,
+				36F3464327A5238C00C57B65 /* SumOfDigitsTests.swift in Sources */,
 				83D54BF526E90EE50009A1DB /* PartialWordSearchingTest.swift in Sources */,
 				831A0F2A26E90993001BF0CB /* PrinterErrors.swift in Sources */,
 				83163D6C26EAB899003E7A82 /* GapInPrimesTest.swift in Sources */,
@@ -387,11 +412,14 @@
 				83D54BF726E90FC50009A1DB /* PrinterErrorsTest.swift in Sources */,
 				83D54BFD26E914690009A1DB /* StopGninnipSMySdroWTest.swift in Sources */,
 				83D54BF926E910C50009A1DB /* IfYouCanReadThisTest.swift in Sources */,
+				36723EB527A45AD90013D49A /* MultiplesOf3Or5Tests.swift in Sources */,
 				83D54BFB26E913F60009A1DB /* RomanNumeralsDecoderTest.swift in Sources */,
 				83D54C0526E916CB0009A1DB /* DecimalFactorialBackTest.swift in Sources */,
 				83D54C0326E915DC0009A1DB /* Int32ToIPv4Test.swift in Sources */,
 				831A0F2F26E909A0001BF0CB /* ReverseOrRotate.swift in Sources */,
 				83EC9DDC26F553B200CA2710 /* SquareIntoSquares.swift in Sources */,
+				36723EB627A45CB10013D49A /* MultiplesOf3Or5.swift in Sources */,
+				36F3464127A5237E00C57B65 /* SumOfDigits.swift in Sources */,
 				831A0F2C26E90998001BF0CB /* RomanNumeralsDecoder.swift in Sources */,
 				831A0F2726E9091C001BF0CB /* RecoverASecret.swift in Sources */,
 				831A0F3126E909AA001BF0CB /* DecimalFactorialBack.swift in Sources */,
