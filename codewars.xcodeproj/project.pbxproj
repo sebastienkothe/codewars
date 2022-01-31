@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3661D3A927A68C6200EB87CF /* GiveMeADiamond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3661D3A827A68C6200EB87CF /* GiveMeADiamond.swift */; };
+		3661D3AA27A68C6800EB87CF /* GiveMeADiamond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3661D3A827A68C6200EB87CF /* GiveMeADiamond.swift */; };
+		3661D3AC27A68C8400EB87CF /* GiveMeADiamondTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3661D3AB27A68C8400EB87CF /* GiveMeADiamondTests.swift */; };
 		36723EB327A454B90013D49A /* MultiplesOf3Or5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36723EB227A454B90013D49A /* MultiplesOf3Or5.swift */; };
 		36723EB527A45AD90013D49A /* MultiplesOf3Or5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36723EB427A45AD90013D49A /* MultiplesOf3Or5Tests.swift */; };
 		36723EB627A45CB10013D49A /* MultiplesOf3Or5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36723EB227A454B90013D49A /* MultiplesOf3Or5.swift */; };
@@ -75,6 +78,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3661D3A827A68C6200EB87CF /* GiveMeADiamond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveMeADiamond.swift; sourceTree = "<group>"; };
+		3661D3AB27A68C8400EB87CF /* GiveMeADiamondTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveMeADiamondTests.swift; sourceTree = "<group>"; };
 		36723EB227A454B90013D49A /* MultiplesOf3Or5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplesOf3Or5.swift; sourceTree = "<group>"; };
 		36723EB427A45AD90013D49A /* MultiplesOf3Or5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplesOf3Or5Tests.swift; sourceTree = "<group>"; };
 		36F3463F27A5235D00C57B65 /* SumOfDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfDigits.swift; sourceTree = "<group>"; };
@@ -152,6 +157,7 @@
 				831A0F1526E90652001BF0CB /* ReverseOrRotate.swift */,
 				36723EB227A454B90013D49A /* MultiplesOf3Or5.swift */,
 				36F3463F27A5235D00C57B65 /* SumOfDigits.swift */,
+				3661D3A827A68C6200EB87CF /* GiveMeADiamond.swift */,
 			);
 			path = "6 kyu";
 			sourceTree = "<group>";
@@ -197,6 +203,7 @@
 				83D54C0026E915610009A1DB /* ReverseOrRotateTest.swift */,
 				36723EB427A45AD90013D49A /* MultiplesOf3Or5Tests.swift */,
 				36F3464227A5238C00C57B65 /* SumOfDigitsTests.swift */,
+				3661D3AB27A68C8400EB87CF /* GiveMeADiamondTests.swift */,
 			);
 			path = "6 kyu";
 			sourceTree = "<group>";
@@ -377,6 +384,7 @@
 				831A0F1026E90584001BF0CB /* RomanNumeralsDecoder.swift in Sources */,
 				831A0F1B26E906F1001BF0CB /* Int32ToIPv4.swift in Sources */,
 				837917F726E82FCA0098D22B /* main.swift in Sources */,
+				3661D3A927A68C6200EB87CF /* GiveMeADiamond.swift in Sources */,
 				831A0F1926E90693001BF0CB /* RecoverASecret.swift in Sources */,
 				831A0F1F26E90792001BF0CB /* FirstVariationCaesarCipher.swift in Sources */,
 				36F3464027A5235D00C57B65 /* SumOfDigits.swift in Sources */,
@@ -407,6 +415,7 @@
 				837E57A426F3427000F60497 /* SquareIntoSquaresTest.swift in Sources */,
 				831A0F2B26E90996001BF0CB /* IfYouCanReadThis.swift in Sources */,
 				831A0F3026E909A7001BF0CB /* Int32ToIPv4.swift in Sources */,
+				3661D3AA27A68C6800EB87CF /* GiveMeADiamond.swift in Sources */,
 				831A0F2926E90991001BF0CB /* PartialWordSearching.swift in Sources */,
 				83163D6A26EAA3E6003E7A82 /* main.swift in Sources */,
 				83D54BF726E90FC50009A1DB /* PrinterErrorsTest.swift in Sources */,
@@ -421,6 +430,7 @@
 				36723EB627A45CB10013D49A /* MultiplesOf3Or5.swift in Sources */,
 				36F3464127A5237E00C57B65 /* SumOfDigits.swift in Sources */,
 				831A0F2C26E90998001BF0CB /* RomanNumeralsDecoder.swift in Sources */,
+				3661D3AC27A68C8400EB87CF /* GiveMeADiamondTests.swift in Sources */,
 				831A0F2726E9091C001BF0CB /* RecoverASecret.swift in Sources */,
 				831A0F3126E909AA001BF0CB /* DecimalFactorialBack.swift in Sources */,
 				83D54C0126E915610009A1DB /* ReverseOrRotateTest.swift in Sources */,
