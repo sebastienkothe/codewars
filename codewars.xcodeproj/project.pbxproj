@@ -16,6 +16,9 @@
 		36B6356B27A8FA9C000D9182 /* HelpTheBookSeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B6356A27A8FA9C000D9182 /* HelpTheBookSeller.swift */; };
 		36B6356C27A8FAA4000D9182 /* HelpTheBookSeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B6356A27A8FA9C000D9182 /* HelpTheBookSeller.swift */; };
 		36B6356E27A8FAB4000D9182 /* HelpTheBookSellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B6356D27A8FAB4000D9182 /* HelpTheBookSellerTests.swift */; };
+		36C297F827AA606D00891A6B /* ConsecutiveStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C297F727AA606D00891A6B /* ConsecutiveStrings.swift */; };
+		36C297F927AA607000891A6B /* ConsecutiveStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C297F727AA606D00891A6B /* ConsecutiveStrings.swift */; };
+		36C297FB27AA608900891A6B /* ConsecutiveStringsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C297FA27AA608900891A6B /* ConsecutiveStringsTests.swift */; };
 		36F3464027A5235D00C57B65 /* SumOfDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3463F27A5235D00C57B65 /* SumOfDigits.swift */; };
 		36F3464127A5237E00C57B65 /* SumOfDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3463F27A5235D00C57B65 /* SumOfDigits.swift */; };
 		36F3464327A5238C00C57B65 /* SumOfDigitsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3464227A5238C00C57B65 /* SumOfDigitsTests.swift */; };
@@ -87,6 +90,8 @@
 		36723EB427A45AD90013D49A /* MultiplesOf3Or5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplesOf3Or5Tests.swift; sourceTree = "<group>"; };
 		36B6356A27A8FA9C000D9182 /* HelpTheBookSeller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpTheBookSeller.swift; sourceTree = "<group>"; };
 		36B6356D27A8FAB4000D9182 /* HelpTheBookSellerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpTheBookSellerTests.swift; sourceTree = "<group>"; };
+		36C297F727AA606D00891A6B /* ConsecutiveStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsecutiveStrings.swift; sourceTree = "<group>"; };
+		36C297FA27AA608900891A6B /* ConsecutiveStringsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsecutiveStringsTests.swift; sourceTree = "<group>"; };
 		36F3463F27A5235D00C57B65 /* SumOfDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfDigits.swift; sourceTree = "<group>"; };
 		36F3464227A5238C00C57B65 /* SumOfDigitsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfDigitsTests.swift; sourceTree = "<group>"; };
 		83163D6B26EAB899003E7A82 /* GapInPrimesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GapInPrimesTest.swift; sourceTree = "<group>"; };
@@ -164,6 +169,7 @@
 				36F3463F27A5235D00C57B65 /* SumOfDigits.swift */,
 				3661D3A827A68C6200EB87CF /* GiveMeADiamond.swift */,
 				36B6356A27A8FA9C000D9182 /* HelpTheBookSeller.swift */,
+				36C297F727AA606D00891A6B /* ConsecutiveStrings.swift */,
 			);
 			path = "6 kyu";
 			sourceTree = "<group>";
@@ -211,6 +217,7 @@
 				36F3464227A5238C00C57B65 /* SumOfDigitsTests.swift */,
 				3661D3AB27A68C8400EB87CF /* GiveMeADiamondTests.swift */,
 				36B6356D27A8FAB4000D9182 /* HelpTheBookSellerTests.swift */,
+				36C297FA27AA608900891A6B /* ConsecutiveStringsTests.swift */,
 			);
 			path = "6 kyu";
 			sourceTree = "<group>";
@@ -391,6 +398,7 @@
 				831A0F1026E90584001BF0CB /* RomanNumeralsDecoder.swift in Sources */,
 				831A0F1B26E906F1001BF0CB /* Int32ToIPv4.swift in Sources */,
 				837917F726E82FCA0098D22B /* main.swift in Sources */,
+				36C297F827AA606D00891A6B /* ConsecutiveStrings.swift in Sources */,
 				3661D3A927A68C6200EB87CF /* GiveMeADiamond.swift in Sources */,
 				831A0F1926E90693001BF0CB /* RecoverASecret.swift in Sources */,
 				831A0F1F26E90792001BF0CB /* FirstVariationCaesarCipher.swift in Sources */,
@@ -424,6 +432,7 @@
 				36B6356E27A8FAB4000D9182 /* HelpTheBookSellerTests.swift in Sources */,
 				837E57A426F3427000F60497 /* SquareIntoSquaresTest.swift in Sources */,
 				831A0F2B26E90996001BF0CB /* IfYouCanReadThis.swift in Sources */,
+				36C297F927AA607000891A6B /* ConsecutiveStrings.swift in Sources */,
 				831A0F3026E909A7001BF0CB /* Int32ToIPv4.swift in Sources */,
 				3661D3AA27A68C6800EB87CF /* GiveMeADiamond.swift in Sources */,
 				831A0F2926E90991001BF0CB /* PartialWordSearching.swift in Sources */,
@@ -449,6 +458,7 @@
 				831A0F2126E907CC001BF0CB /* RecoverASecretTest.swift in Sources */,
 				83163D6F26EAB900003E7A82 /* GapInPrimes.swift in Sources */,
 				831A0F2E26E9099D001BF0CB /* TwoSum.swift in Sources */,
+				36C297FB27AA608900891A6B /* ConsecutiveStringsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
