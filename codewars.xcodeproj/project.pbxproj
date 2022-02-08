@@ -16,6 +16,9 @@
 		36723EB327A454B90013D49A /* MultiplesOf3Or5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36723EB227A454B90013D49A /* MultiplesOf3Or5.swift */; };
 		36723EB527A45AD90013D49A /* MultiplesOf3Or5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36723EB427A45AD90013D49A /* MultiplesOf3Or5Tests.swift */; };
 		36723EB627A45CB10013D49A /* MultiplesOf3Or5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36723EB227A454B90013D49A /* MultiplesOf3Or5.swift */; };
+		36760D2027AFC7DA00CB9A08 /* RomanNumeralsEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36760D1F27AFC7DA00CB9A08 /* RomanNumeralsEncoder.swift */; };
+		36760D2227AFC81500CB9A08 /* RomanNumeralsEncoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36760D2127AFC81500CB9A08 /* RomanNumeralsEncoderTests.swift */; };
+		36760D2327AFC88900CB9A08 /* RomanNumeralsEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36760D1F27AFC7DA00CB9A08 /* RomanNumeralsEncoder.swift */; };
 		36B6356B27A8FA9C000D9182 /* HelpTheBookSeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B6356A27A8FA9C000D9182 /* HelpTheBookSeller.swift */; };
 		36B6356C27A8FAA4000D9182 /* HelpTheBookSeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B6356A27A8FA9C000D9182 /* HelpTheBookSeller.swift */; };
 		36B6356E27A8FAB4000D9182 /* HelpTheBookSellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B6356D27A8FAB4000D9182 /* HelpTheBookSellerTests.swift */; };
@@ -93,6 +96,8 @@
 		3661D3AB27A68C8400EB87CF /* GiveMeADiamondTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveMeADiamondTests.swift; sourceTree = "<group>"; };
 		36723EB227A454B90013D49A /* MultiplesOf3Or5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplesOf3Or5.swift; sourceTree = "<group>"; };
 		36723EB427A45AD90013D49A /* MultiplesOf3Or5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplesOf3Or5Tests.swift; sourceTree = "<group>"; };
+		36760D1F27AFC7DA00CB9A08 /* RomanNumeralsEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralsEncoder.swift; sourceTree = "<group>"; };
+		36760D2127AFC81500CB9A08 /* RomanNumeralsEncoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralsEncoderTests.swift; sourceTree = "<group>"; };
 		36B6356A27A8FA9C000D9182 /* HelpTheBookSeller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpTheBookSeller.swift; sourceTree = "<group>"; };
 		36B6356D27A8FAB4000D9182 /* HelpTheBookSellerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpTheBookSellerTests.swift; sourceTree = "<group>"; };
 		36C297F727AA606D00891A6B /* ConsecutiveStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsecutiveStrings.swift; sourceTree = "<group>"; };
@@ -176,6 +181,7 @@
 				36B6356A27A8FA9C000D9182 /* HelpTheBookSeller.swift */,
 				36C297F727AA606D00891A6B /* ConsecutiveStrings.swift */,
 				3601AE4F27AD1663006CD30B /* ParabolicArcLength.swift */,
+				36760D1F27AFC7DA00CB9A08 /* RomanNumeralsEncoder.swift */,
 			);
 			path = "6 kyu";
 			sourceTree = "<group>";
@@ -225,6 +231,7 @@
 				36B6356D27A8FAB4000D9182 /* HelpTheBookSellerTests.swift */,
 				36C297FA27AA608900891A6B /* ConsecutiveStringsTests.swift */,
 				3601AE5127AD167E006CD30B /* ParabolicArcLengthTests.swift */,
+				36760D2127AFC81500CB9A08 /* RomanNumeralsEncoderTests.swift */,
 			);
 			path = "6 kyu";
 			sourceTree = "<group>";
@@ -406,6 +413,7 @@
 				831A0F1026E90584001BF0CB /* RomanNumeralsDecoder.swift in Sources */,
 				831A0F1B26E906F1001BF0CB /* Int32ToIPv4.swift in Sources */,
 				837917F726E82FCA0098D22B /* main.swift in Sources */,
+				36760D2027AFC7DA00CB9A08 /* RomanNumeralsEncoder.swift in Sources */,
 				36C297F827AA606D00891A6B /* ConsecutiveStrings.swift in Sources */,
 				3661D3A927A68C6200EB87CF /* GiveMeADiamond.swift in Sources */,
 				831A0F1926E90693001BF0CB /* RecoverASecret.swift in Sources */,
@@ -447,11 +455,13 @@
 				3661D3AA27A68C6800EB87CF /* GiveMeADiamond.swift in Sources */,
 				831A0F2926E90991001BF0CB /* PartialWordSearching.swift in Sources */,
 				83163D6A26EAA3E6003E7A82 /* main.swift in Sources */,
+				36760D2227AFC81500CB9A08 /* RomanNumeralsEncoderTests.swift in Sources */,
 				83D54BF726E90FC50009A1DB /* PrinterErrorsTest.swift in Sources */,
 				83D54BFD26E914690009A1DB /* StopGninnipSMySdroWTest.swift in Sources */,
 				83D54BF926E910C50009A1DB /* IfYouCanReadThisTest.swift in Sources */,
 				36723EB527A45AD90013D49A /* MultiplesOf3Or5Tests.swift in Sources */,
 				83D54BFB26E913F60009A1DB /* RomanNumeralsDecoderTest.swift in Sources */,
+				36760D2327AFC88900CB9A08 /* RomanNumeralsEncoder.swift in Sources */,
 				83D54C0526E916CB0009A1DB /* DecimalFactorialBackTest.swift in Sources */,
 				83D54C0326E915DC0009A1DB /* Int32ToIPv4Test.swift in Sources */,
 				831A0F2F26E909A0001BF0CB /* ReverseOrRotate.swift in Sources */,
