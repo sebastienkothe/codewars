@@ -16,6 +16,9 @@
 		362CB85527B2BE1E00A69E18 /* RectangleIntoSquares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362CB85427B2BE1E00A69E18 /* RectangleIntoSquares.swift */; };
 		362CB85627B2BE2200A69E18 /* RectangleIntoSquares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362CB85427B2BE1E00A69E18 /* RectangleIntoSquares.swift */; };
 		362CB85827B2BE3500A69E18 /* RectangleIntoSquaresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362CB85727B2BE3500A69E18 /* RectangleIntoSquaresTests.swift */; };
+		363CB93827BA6D0100BEF6E4 /* PyramidArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363CB93727BA6D0100BEF6E4 /* PyramidArray.swift */; };
+		363CB93927BA6D0800BEF6E4 /* PyramidArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363CB93727BA6D0100BEF6E4 /* PyramidArray.swift */; };
+		363CB93B27BA6D2700BEF6E4 /* PyramidArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363CB93A27BA6D2700BEF6E4 /* PyramidArrayTests.swift */; };
 		3661D3A927A68C6200EB87CF /* GiveMeADiamond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3661D3A827A68C6200EB87CF /* GiveMeADiamond.swift */; };
 		3661D3AA27A68C6800EB87CF /* GiveMeADiamond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3661D3A827A68C6200EB87CF /* GiveMeADiamond.swift */; };
 		3661D3AC27A68C8400EB87CF /* GiveMeADiamondTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3661D3AB27A68C8400EB87CF /* GiveMeADiamondTests.swift */; };
@@ -102,6 +105,8 @@
 		3621616E27B58F8900F70FD5 /* PlayingWithDigitsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingWithDigitsTests.swift; sourceTree = "<group>"; };
 		362CB85427B2BE1E00A69E18 /* RectangleIntoSquares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleIntoSquares.swift; sourceTree = "<group>"; };
 		362CB85727B2BE3500A69E18 /* RectangleIntoSquaresTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleIntoSquaresTests.swift; sourceTree = "<group>"; };
+		363CB93727BA6D0100BEF6E4 /* PyramidArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PyramidArray.swift; sourceTree = "<group>"; };
+		363CB93A27BA6D2700BEF6E4 /* PyramidArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PyramidArrayTests.swift; sourceTree = "<group>"; };
 		3661D3A827A68C6200EB87CF /* GiveMeADiamond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveMeADiamond.swift; sourceTree = "<group>"; };
 		3661D3AB27A68C8400EB87CF /* GiveMeADiamondTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveMeADiamondTests.swift; sourceTree = "<group>"; };
 		36723EB227A454B90013D49A /* MultiplesOf3Or5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplesOf3Or5.swift; sourceTree = "<group>"; };
@@ -194,6 +199,7 @@
 				36760D1F27AFC7DA00CB9A08 /* RomanNumeralsEncoder.swift */,
 				362CB85427B2BE1E00A69E18 /* RectangleIntoSquares.swift */,
 				3621616B27B58F7600F70FD5 /* PlayingWithDigits.swift */,
+				363CB93727BA6D0100BEF6E4 /* PyramidArray.swift */,
 			);
 			path = "6 kyu";
 			sourceTree = "<group>";
@@ -246,6 +252,7 @@
 				36760D2127AFC81500CB9A08 /* RomanNumeralsEncoderTests.swift */,
 				362CB85727B2BE3500A69E18 /* RectangleIntoSquaresTests.swift */,
 				3621616E27B58F8900F70FD5 /* PlayingWithDigitsTests.swift */,
+				363CB93A27BA6D2700BEF6E4 /* PyramidArrayTests.swift */,
 			);
 			path = "6 kyu";
 			sourceTree = "<group>";
@@ -430,6 +437,7 @@
 				837917F726E82FCA0098D22B /* main.swift in Sources */,
 				36760D2027AFC7DA00CB9A08 /* RomanNumeralsEncoder.swift in Sources */,
 				36C297F827AA606D00891A6B /* ConsecutiveStrings.swift in Sources */,
+				363CB93827BA6D0100BEF6E4 /* PyramidArray.swift in Sources */,
 				3661D3A927A68C6200EB87CF /* GiveMeADiamond.swift in Sources */,
 				831A0F1926E90693001BF0CB /* RecoverASecret.swift in Sources */,
 				831A0F1F26E90792001BF0CB /* FirstVariationCaesarCipher.swift in Sources */,
@@ -472,6 +480,7 @@
 				3601AE5327AD16BB006CD30B /* ParabolicArcLength.swift in Sources */,
 				831A0F3026E909A7001BF0CB /* Int32ToIPv4.swift in Sources */,
 				3661D3AA27A68C6800EB87CF /* GiveMeADiamond.swift in Sources */,
+				363CB93927BA6D0800BEF6E4 /* PyramidArray.swift in Sources */,
 				831A0F2926E90991001BF0CB /* PartialWordSearching.swift in Sources */,
 				83163D6A26EAA3E6003E7A82 /* main.swift in Sources */,
 				36760D2227AFC81500CB9A08 /* RomanNumeralsEncoderTests.swift in Sources */,
@@ -489,6 +498,7 @@
 				36F3464127A5237E00C57B65 /* SumOfDigits.swift in Sources */,
 				831A0F2C26E90998001BF0CB /* RomanNumeralsDecoder.swift in Sources */,
 				3661D3AC27A68C8400EB87CF /* GiveMeADiamondTests.swift in Sources */,
+				363CB93B27BA6D2700BEF6E4 /* PyramidArrayTests.swift in Sources */,
 				831A0F2726E9091C001BF0CB /* RecoverASecret.swift in Sources */,
 				831A0F3126E909AA001BF0CB /* DecimalFactorialBack.swift in Sources */,
 				83D54C0126E915610009A1DB /* ReverseOrRotateTest.swift in Sources */,
