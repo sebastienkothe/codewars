@@ -40,6 +40,9 @@
 		36F3464027A5235D00C57B65 /* SumOfDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3463F27A5235D00C57B65 /* SumOfDigits.swift */; };
 		36F3464127A5237E00C57B65 /* SumOfDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3463F27A5235D00C57B65 /* SumOfDigits.swift */; };
 		36F3464327A5238C00C57B65 /* SumOfDigitsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3464227A5238C00C57B65 /* SumOfDigitsTests.swift */; };
+		36FA55F427C4197700DA7258 /* IntegersRecreationOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA55F327C4197700DA7258 /* IntegersRecreationOne.swift */; };
+		36FA55F527C41B8400DA7258 /* IntegersRecreationOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA55F327C4197700DA7258 /* IntegersRecreationOne.swift */; };
+		36FA55F727C41BA000DA7258 /* IntegersRecreationOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA55F627C41BA000DA7258 /* IntegersRecreationOneTests.swift */; };
 		83163D6A26EAA3E6003E7A82 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837917F626E82FCA0098D22B /* main.swift */; };
 		83163D6C26EAB899003E7A82 /* GapInPrimesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83163D6B26EAB899003E7A82 /* GapInPrimesTest.swift */; };
 		83163D6E26EAB8C1003E7A82 /* GapInPrimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83163D6D26EAB8C1003E7A82 /* GapInPrimes.swift */; };
@@ -124,6 +127,8 @@
 		36DC56B627C2D6AC00C26807 /* IsMyFriendCheatingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsMyFriendCheatingTests.swift; sourceTree = "<group>"; };
 		36F3463F27A5235D00C57B65 /* SumOfDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfDigits.swift; sourceTree = "<group>"; };
 		36F3464227A5238C00C57B65 /* SumOfDigitsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfDigitsTests.swift; sourceTree = "<group>"; };
+		36FA55F327C4197700DA7258 /* IntegersRecreationOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegersRecreationOne.swift; sourceTree = "<group>"; };
+		36FA55F627C41BA000DA7258 /* IntegersRecreationOneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegersRecreationOneTests.swift; sourceTree = "<group>"; };
 		83163D6B26EAB899003E7A82 /* GapInPrimesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GapInPrimesTest.swift; sourceTree = "<group>"; };
 		83163D6D26EAB8C1003E7A82 /* GapInPrimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GapInPrimes.swift; sourceTree = "<group>"; };
 		831A0F0826E9001E001BF0CB /* PartialWordSearching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartialWordSearching.swift; sourceTree = "<group>"; };
@@ -237,6 +242,7 @@
 				83D54C0626E9184E0009A1DB /* FirstVariationCaesarCipherTest.swift */,
 				83163D6B26EAB899003E7A82 /* GapInPrimesTest.swift */,
 				36DC56B627C2D6AC00C26807 /* IsMyFriendCheatingTests.swift */,
+				36FA55F627C41BA000DA7258 /* IntegersRecreationOneTests.swift */,
 			);
 			path = "5 kyu";
 			sourceTree = "<group>";
@@ -340,6 +346,7 @@
 				831A0F1E26E90792001BF0CB /* FirstVariationCaesarCipher.swift */,
 				83163D6D26EAB8C1003E7A82 /* GapInPrimes.swift */,
 				36DC56B327C2D68800C26807 /* IsMyFriendCheating.swift */,
+				36FA55F327C4197700DA7258 /* IntegersRecreationOne.swift */,
 			);
 			path = "5 kyu";
 			sourceTree = "<group>";
@@ -449,6 +456,7 @@
 				831A0F1926E90693001BF0CB /* RecoverASecret.swift in Sources */,
 				831A0F1F26E90792001BF0CB /* FirstVariationCaesarCipher.swift in Sources */,
 				36F3464027A5235D00C57B65 /* SumOfDigits.swift in Sources */,
+				36FA55F427C4197700DA7258 /* IntegersRecreationOne.swift in Sources */,
 				36DC56B427C2D68800C26807 /* IsMyFriendCheating.swift in Sources */,
 				831A0F0E26E901D1001BF0CB /* IfYouCanReadThis.swift in Sources */,
 				8379180E26E831F20098D22B /* TheLookAndSaySequence.swift in Sources */,
@@ -491,6 +499,7 @@
 				831A0F3026E909A7001BF0CB /* Int32ToIPv4.swift in Sources */,
 				3661D3AA27A68C6800EB87CF /* GiveMeADiamond.swift in Sources */,
 				363CB93927BA6D0800BEF6E4 /* PyramidArray.swift in Sources */,
+				36FA55F527C41B8400DA7258 /* IntegersRecreationOne.swift in Sources */,
 				831A0F2926E90991001BF0CB /* PartialWordSearching.swift in Sources */,
 				83163D6A26EAA3E6003E7A82 /* main.swift in Sources */,
 				36760D2227AFC81500CB9A08 /* RomanNumeralsEncoderTests.swift in Sources */,
@@ -503,6 +512,7 @@
 				83D54C0526E916CB0009A1DB /* DecimalFactorialBackTest.swift in Sources */,
 				83D54C0326E915DC0009A1DB /* Int32ToIPv4Test.swift in Sources */,
 				831A0F2F26E909A0001BF0CB /* ReverseOrRotate.swift in Sources */,
+				36FA55F727C41BA000DA7258 /* IntegersRecreationOneTests.swift in Sources */,
 				83EC9DDC26F553B200CA2710 /* SquareIntoSquares.swift in Sources */,
 				36723EB627A45CB10013D49A /* MultiplesOf3Or5.swift in Sources */,
 				36F3464127A5237E00C57B65 /* SumOfDigits.swift in Sources */,
