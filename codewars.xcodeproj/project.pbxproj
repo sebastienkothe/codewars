@@ -37,6 +37,9 @@
 		36760D2027AFC7DA00CB9A08 /* RomanNumeralsEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36760D1F27AFC7DA00CB9A08 /* RomanNumeralsEncoder.swift */; };
 		36760D2227AFC81500CB9A08 /* RomanNumeralsEncoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36760D2127AFC81500CB9A08 /* RomanNumeralsEncoderTests.swift */; };
 		36760D2327AFC88900CB9A08 /* RomanNumeralsEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36760D1F27AFC7DA00CB9A08 /* RomanNumeralsEncoder.swift */; };
+		369D38532814743700C631C4 /* CountingDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369D38522814743700C631C4 /* CountingDuplicates.swift */; };
+		369D38542814743700C631C4 /* CountingDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369D38522814743700C631C4 /* CountingDuplicates.swift */; };
+		369D38562814748C00C631C4 /* CountingDuplicatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369D38552814748C00C631C4 /* CountingDuplicatesTests.swift */; };
 		36B6356B27A8FA9C000D9182 /* HelpTheBookSeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B6356A27A8FA9C000D9182 /* HelpTheBookSeller.swift */; };
 		36B6356C27A8FAA4000D9182 /* HelpTheBookSeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B6356A27A8FA9C000D9182 /* HelpTheBookSeller.swift */; };
 		36B6356E27A8FAB4000D9182 /* HelpTheBookSellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B6356D27A8FAB4000D9182 /* HelpTheBookSellerTests.swift */; };
@@ -140,6 +143,8 @@
 		36723EB427A45AD90013D49A /* MultiplesOf3Or5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplesOf3Or5Tests.swift; sourceTree = "<group>"; };
 		36760D1F27AFC7DA00CB9A08 /* RomanNumeralsEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralsEncoder.swift; sourceTree = "<group>"; };
 		36760D2127AFC81500CB9A08 /* RomanNumeralsEncoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralsEncoderTests.swift; sourceTree = "<group>"; };
+		369D38522814743700C631C4 /* CountingDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingDuplicates.swift; sourceTree = "<group>"; };
+		369D38552814748C00C631C4 /* CountingDuplicatesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingDuplicatesTests.swift; sourceTree = "<group>"; };
 		36B6356A27A8FA9C000D9182 /* HelpTheBookSeller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpTheBookSeller.swift; sourceTree = "<group>"; };
 		36B6356D27A8FAB4000D9182 /* HelpTheBookSellerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpTheBookSellerTests.swift; sourceTree = "<group>"; };
 		36C297F727AA606D00891A6B /* ConsecutiveStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsecutiveStrings.swift; sourceTree = "<group>"; };
@@ -237,6 +242,7 @@
 				363CB93727BA6D0100BEF6E4 /* PyramidArray.swift */,
 				36E8D8B427C6C74C00407DAD /* CamelCaseMethod.swift */,
 				3602BFA6280CA4BD00B6AB5D /* SalesmanTravel.swift */,
+				369D38522814743700C631C4 /* CountingDuplicates.swift */,
 			);
 			path = "6 kyu";
 			sourceTree = "<group>";
@@ -298,6 +304,7 @@
 				363CB93A27BA6D2700BEF6E4 /* PyramidArrayTests.swift */,
 				36E8D8B627C6C7BF00407DAD /* CamelCaseMethodTests.swift */,
 				3602BFA9280CA50000B6AB5D /* SalesmanTravelTests.swift */,
+				369D38552814748C00C631C4 /* CountingDuplicatesTests.swift */,
 			);
 			path = "6 kyu";
 			sourceTree = "<group>";
@@ -480,6 +487,7 @@
 				83EC9DDB26F5539E00CA2710 /* SquareIntoSquares.swift in Sources */,
 				36723EB327A454B90013D49A /* MultiplesOf3Or5.swift in Sources */,
 				83163D6E26EAB8C1003E7A82 /* GapInPrimes.swift in Sources */,
+				369D38532814743700C631C4 /* CountingDuplicates.swift in Sources */,
 				831A0F1D26E90739001BF0CB /* DecimalFactorialBack.swift in Sources */,
 				36EF050D27CB66E50096045B /* NextBiggerNumberWithTheSameDigits.swift in Sources */,
 				831A0F1026E90584001BF0CB /* RomanNumeralsDecoder.swift in Sources */,
@@ -516,6 +524,7 @@
 			files = (
 				83D54BFF26E914F60009A1DB /* TwoSumTest.swift in Sources */,
 				36F3464327A5238C00C57B65 /* SumOfDigitsTests.swift in Sources */,
+				369D38542814743700C631C4 /* CountingDuplicates.swift in Sources */,
 				362CB85827B2BE3500A69E18 /* RectangleIntoSquaresTests.swift in Sources */,
 				83D54BF526E90EE50009A1DB /* PartialWordSearchingTest.swift in Sources */,
 				36DC56B727C2D6AC00C26807 /* IsMyFriendCheatingTests.swift in Sources */,
@@ -571,6 +580,7 @@
 				831A0F3126E909AA001BF0CB /* DecimalFactorialBack.swift in Sources */,
 				83D54C0126E915610009A1DB /* ReverseOrRotateTest.swift in Sources */,
 				36EF051027CB670D0096045B /* NextBiggerNumberWithTheSameDigitsTests.swift in Sources */,
+				369D38562814748C00C631C4 /* CountingDuplicatesTests.swift in Sources */,
 				8379181326E8354F0098D22B /* DirectionsReduction.swift in Sources */,
 				8379180F26E831F20098D22B /* TheLookAndSaySequence.swift in Sources */,
 				831A0F2126E907CC001BF0CB /* RecoverASecretTest.swift in Sources */,
